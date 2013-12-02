@@ -1,0 +1,15 @@
+﻿## Interface: 50400
+## X-Min-Interface: 50001
+## Title:|cffffe00a<|r|cffff7d0aVEM|r|cffffe00a>|r |cff69ccf0VEM-Sound-Demo|r
+## Title-zhTW:|cffffe00a<|r|cffff7d0aVEM|r|cffffe00a>|r |cff69ccf0VEM-Demo語音包|r
+## Title-zhCN:|cffffe00a<|r|cffff7d0aVEM|r|cffffe00a>|r |cff69ccf0VEM-Demo语音包|r
+## Author: Iceoven
+## RequiredDeps: VEM-Core
+## X-VEM-Mod-SoundFile: demo
+## X-VEM-Mod-SoundFileName: Demo(EN)
+## X-VEM-Mod-SoundFileName-zhTW: 示範(EN)
+## X-VEM-Mod-SoundFileName-zhCN: 示范(EN)
+## X-VEM-Mod-SoundFilePIC: 1
+## X-VEM-Mod-SoundFileUsage:     All Voice generated via VoiceRss TTS (Text To Speech) API by Iceoven (Worgen Mage from Ancient Ones @ US-Dath'Remar).
+## X-VEM-Mod-SoundFileUsage-zhTW:    所有示範語音由VoiceRss (Text To Speech) TTS API生成，作者Iceoven (Worgen Mage from Ancient Ones @ US-Dath'Remar)。
+## X-VEM-Mod-SoundFileUsage-zhCN:    所有示范语音由VoiceRss (Text To Speech) TTS API生成，作者Iceoven (Worgen Mage from Ancient Ones @ US-Dath'Remar)。
