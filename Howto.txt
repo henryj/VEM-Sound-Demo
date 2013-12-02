@@ -1,0 +1,40 @@
+Before we start, there're some tools you need to have.
+
+1. A decent text editor. (I use Notepad++ on windows.)
+2. Voice recorder tools which can output mp3 files. Could be some software or a physical recorder, as long as you can turn your voices to mp3.
+3. Paint tool. (Optional I use Windows Paint...)
+
+That's it. Easy, yeah?
+
+Now the main part. 
+
+1. Copy this Demo pack into your workspace. By workspace I mean another folder location just in case you do something wrong and want to override the whole thing back to the initial status.
+
+2. Make a decision of what name you want to use for your voice pack, and rename the folder to "VEM-Sound-YourPackName". Must follow the start "VEM-Sound-", case sensitive.
+
+3. Go into the folder and rename the file "VEM-Sound-Demo.toc" to the same name you just named your folder, so "VEM-Sound-YourPackName.toc". DO NOT accidentally change the ext ".toc".
+
+4. Rename the "demo" folder to the same name or any other name or just leave it. 
+
+5. (Optional) Set a cover pic for your voice pack. (If you want to use the default cover, just remove the tga file in your pack and skip this step.) I simply screenshot my wow char. However you'll need to use some paint tool to cut it to 256x256 px and make sure all the last several pixels in the right set to black or white or any background color you want for your description text. Then google "jpg/gif/etc to tga", there'll be a lot of online tools to do the converting. (I use http://image.online-convert.com/convert-to-tga ). After you have the tga, rename it to the same name as your mp3 folder name in step 4.
+
+6. Now open the toc file you renamed in step 3 with your text editor (Notepad++ in my case). 
+	6.1) First 2 lines are addon version info. No need to touch them unless future wow big version releases.
+	6.2) Line 3 is the title of your voice pack which will be showed in wow addons list. So simply change "VEM-Sound-Demo" to "VEM-Sound-YourPackName". 
+	6.3) Line 4 and 5 is Taiwanese and Chinese translations for the title. If you don't speak those languages just remove those 2 lines.
+	6.4) Change "Author: Iceoven" to "Author: YourName".
+	6.5) "RequiredDeps" DO NOT TOUCH.
+	6.6) "X-VEM-Mod-SoundFile: demo", change "demo" to the folder name in step 4. 
+	6.7) "X-VEM-Mod-SoundFileName: Demo(EN)", change "Demo(EN)" to "YourPackName(Lang)". This is the name gonna be showed in VEM sound selection dropdown. Next 2 lines are translations, remove if doesn't apply.
+	6.8) "X-VEM-Mod-SoundFilePIC" DO NOT TOUCH.
+	6.9) "X-VEM-Mod-SoundFileUsage" is the description for your pack in game. Change the text as you wish. Next 2 lines are translations, remove if doesn't apply.
+	done.
+
+7. Congrats, the only last thing left now is to record your mp3 files. Open the VoiceText.txt and you'll see the file names on the left and the words we used on the right. 
+	7.1) You may search through and find the ones you want to customize or simply record all of the 500ish files... and put your mp3 into the folder in step 4 and replace the existing ones.
+	7.2) Some patterns: "ex_so_*" is for SoO, "ex_tt_*" is for ToT, "ex_mop_*" for other MoP contents, others are general ones.
+	7.3) Advance usage: If you want to find some mp3 files for a certain boss fight, say in SoO. Go into the folder VEM-SiegeOfOrgrimmar, and find the lua file under that boss's name search for the word "mp3", there you go.
+	7.4) Continue 7.3), You may see something like "args.spellId == 144583" above the mp3 lines, that id is the boss ability id. So you can goto http://wowhead.com/spell=144583 to get the details about that skill.
+
+
+If you have other questions or issues please goto https://github.com/henryj/VEM-Sound-Demo/issues and submit a ticket. Thank you.
