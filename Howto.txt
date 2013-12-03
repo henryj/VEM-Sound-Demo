@@ -16,7 +16,7 @@ Now the main part.
 
 4. Rename the "demo" folder to the same name or any other name or just leave it. 
 
-5. (Optional) Set a cover pic for your voice pack. (If you want to use the default cover, just remove the tga file in your pack and skip this step.) I simply screenshot my wow char. However you'll need to use some paint tool to cut it to 256x256 px and make sure all the last several pixels in the right set to black or white or any background color you want for your description text. Then google "jpg/gif/etc to tga", there'll be a lot of online tools to do the converting. (I use http://image.online-convert.com/convert-to-tga ). After you have the tga, rename it to the same name as your mp3 folder name in step 4.
+5. (Optional) Set a cover pic for your voice pack. (If you want to use the default cover, just remove the tga file in your pack and see step 6.8.) I simply screenshot my wow char. However you'll need to use some paint tool to cut it to 256x256 px and make sure all the last several pixels in the right set to black or white or any background color you want for your description text. Then google "jpg/gif/etc to tga", there'll be a lot of online tools to do the converting. (I use http://image.online-convert.com/convert-to-tga ). After you have the tga, rename it to the same name as your mp3 folder name in step 4.
 
 6. Now open the toc file you renamed in step 3 with your text editor (Notepad++ in my case). 
 	6.1) First 2 lines are addon version info. No need to touch them unless future wow big version releases.
@@ -26,7 +26,7 @@ Now the main part.
 	6.5) "RequiredDeps" DO NOT TOUCH.
 	6.6) "X-VEM-Mod-SoundFile: demo", change "demo" to the folder name in step 4. 
 	6.7) "X-VEM-Mod-SoundFileName: Demo(EN)", change "Demo(EN)" to "YourPackName(Lang)". This is the name gonna be showed in VEM sound selection dropdown. Next 2 lines are translations, remove if doesn't apply.
-	6.8) "X-VEM-Mod-SoundFilePIC" DO NOT TOUCH.
+	6.8) "X-VEM-Mod-SoundFilePIC", 1 means you have your tga file done in step 5. Change to 0 if you deleted the tga file.
 	6.9) "X-VEM-Mod-SoundFileUsage" is the description for your pack in game. Change the text as you wish. Next 2 lines are translations, remove if doesn't apply.
 	done.
 
