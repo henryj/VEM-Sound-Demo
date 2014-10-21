@@ -1,7 +1,7 @@
 Before we start, there're some tools you need to have.
 
 1. A decent text editor. (I use Notepad++ on windows.)
-2. Voice recorder tools which can output mp3 files. Could be some software or a physical recorder, as long as you can turn your voices to mp3.
+2. Voice recorder tools which can output ogg files. Could be some software or a physical recorder, as long as you can turn your voices to ogg.
 3. Paint tool. (Optional I use Windows Paint...)
 
 That's it. Easy, yeah?
@@ -16,7 +16,7 @@ Now the main part.
 
 4. Rename the "demo" folder to the same name or any other name or just leave it. 
 
-5. (Optional) Set a cover pic for your voice pack. (If you want to use the default cover, just remove the tga file in your pack and see step 6.8.) I simply screenshot my wow char. However you'll need to use some paint tool to cut it to 256x256 px and make sure all the last several pixels in the right set to black or white or any background color you want for your description text. Then google "jpg/gif/etc to tga", there'll be a lot of online tools to do the converting. (I use http://image.online-convert.com/convert-to-tga ). After you have the tga, rename it to the same name as your mp3 folder name in step 4.
+5. (Optional) Set a cover pic for your voice pack. (If you want to use the default cover, just remove the tga file in your pack and see step 6.8.) I simply screenshot my wow char. However you'll need to use some paint tool to cut it to 256x256 px and make sure all the last several pixels in the right set to black or white or any background color you want for your description text. Then google "jpg/gif/etc to tga", there'll be a lot of online tools to do the converting. (I use http://image.online-convert.com/convert-to-tga ). After you have the tga, rename it to the same name as your ogg folder name in step 4.
 
 6. Now open the toc file you renamed in step 3 with your text editor (Notepad++ in my case). 
 	6.1) First 2 lines are addon version info. No need to touch them unless future wow big version releases.
@@ -30,11 +30,11 @@ Now the main part.
 	6.9) "X-VEM-Mod-SoundFileUsage" is the description for your pack in game. Change the text as you wish. Next 2 lines are translations, remove if doesn't apply.
 	done.
 
-7. Congrats, the only last thing left now is to record your mp3 files. Open the VoiceText.txt and you'll see the file names on the left and the words we used on the right. 
-	7.1) You may search through and find the ones you want to customize or simply record all of the 500ish files... and put your mp3 into the folder in step 4 and replace the existing ones.
+7. Congrats, the only last thing left now is to record your ogg files. Open the VoiceText.txt and you'll see the file names on the left and the words we used on the right. 
+	7.1) You may search through and find the ones you want to customize or simply record all of the 500ish files... and put your ogg into the folder in step 4 and replace the existing ones.
 	7.2) Some patterns: "ex_so_*" is for SoO, "ex_tt_*" is for ToT, "ex_mop_*" for other MoP contents, others are general ones.
-	7.3) Advance usage: If you want to find some mp3 files for a certain boss fight, say in SoO. Go into the folder VEM-SiegeOfOrgrimmar, and find the lua file under that boss's name search for the word "mp3", there you go.
-	7.4) Continue 7.3), You may see something like "args.spellId == 144583" above the mp3 lines, that id is the boss ability id. So you can goto http://wowhead.com/spell=144583 to get the details about that skill.
+	7.3) Advance usage: If you want to find some ogg files for a certain boss fight, say in SoO. Go into the folder VEM-SiegeOfOrgrimmar, and find the lua file under that boss's name search for the word "ogg", there you go.
+	7.4) Continue 7.3), You may see something like "args.spellId == 144583" above the ogg lines, that id is the boss ability id. So you can goto http://wowhead.com/spell=144583 to get the details about that skill.
 
 
 If you have other questions or issues please goto https://github.com/henryj/VEM-Sound-Demo/issues and submit a ticket. Thank you.
